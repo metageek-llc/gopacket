@@ -19,8 +19,8 @@ import (
 	"golang.org/x/net/bpf"
 	"golang.org/x/sys/unix"
 
-	"github.com/gopacket/gopacket"
-	"github.com/gopacket/gopacket/endian"
+	"github.com/metageek-llc/gopacket"
+	"github.com/metageek-llc/gopacket/endian"
 )
 
 var hdrLen = unix.CmsgSpace(0)
@@ -286,7 +286,7 @@ func (h *EthernetHandle) Stats() (res *unix.TpacketStats, err error) {
 }
 
 // NewEthernetHandle implements pcap.OpenLive for network devices.
-// If you want better performance have a look at github.com/gopacket/gopacket/afpacket.
+// If you want better performance have a look at github.com/metageek-llc/gopacket/afpacket.
 // SetCaptureLength can be used to limit the maximum capture length.
 func NewEthernetHandle(ifname string) (*EthernetHandle, error) {
 	intf, err := net.InterfaceByName(ifname)

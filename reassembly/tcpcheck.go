@@ -10,8 +10,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/gopacket/gopacket"
-	"github.com/gopacket/gopacket/layers"
+	"github.com/metageek-llc/gopacket"
+	"github.com/metageek-llc/gopacket/layers"
 )
 
 /*

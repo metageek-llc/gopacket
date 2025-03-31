@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // CDPTLVType is the type of each TLV value in a CiscoDiscovery packet.

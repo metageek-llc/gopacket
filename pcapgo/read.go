@@ -16,8 +16,8 @@ import (
 	"bufio"
 	"compress/gzip"
 
-	"github.com/gopacket/gopacket"
-	"github.com/gopacket/gopacket/layers"
+	"github.com/metageek-llc/gopacket"
+	"github.com/metageek-llc/gopacket/layers"
 )
 
 // Reader wraps an underlying io.Reader to read packet data in PCAP

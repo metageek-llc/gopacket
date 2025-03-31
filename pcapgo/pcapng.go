@@ -13,8 +13,8 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/gopacket/gopacket"
-	"github.com/gopacket/gopacket/layers"
+	"github.com/metageek-llc/gopacket"
+	"github.com/metageek-llc/gopacket/layers"
 )
 
 // ErrNgVersionMismatch gets returned for unknown pcapng section versions. This can only happen if ReaderOptions.SkipUnknownVersion == false

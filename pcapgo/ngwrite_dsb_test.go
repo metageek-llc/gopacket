@@ -2,12 +2,13 @@ package pcapgo
 
 import (
 	"fmt"
-	"github.com/gopacket/gopacket/layers"
 	"io"
 	"math"
 	"net"
 	"os"
 	"testing"
+
+	"github.com/metageek-llc/gopacket/layers"
 )
 
 // TestNgWriterDSB tests the WriteDecryptionSecretsBlock function.

@@ -10,7 +10,7 @@ package layers
 import (
 	"encoding/binary"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // UDPLite is the layer for UDP-Lite headers (rfc 3828).

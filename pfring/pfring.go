@@ -62,7 +62,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 const errorBufferSize = 256

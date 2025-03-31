@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 func FuzzDecodeFromBytes(f *testing.F) {

@@ -14,7 +14,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 const (

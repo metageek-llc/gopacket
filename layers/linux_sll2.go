@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // The ARPHardwareType contains a Linux ARPHRD_ value for the link-layer device type

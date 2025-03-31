@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // Generator: python layers/test_creator.py --layerType=LayerTypeRadioTap --linkType=LinkTypeIEEE80211Radio --name=Dot11%s ~/Downloads/mesh.pcap

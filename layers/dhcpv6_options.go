@@ -12,7 +12,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // DHCPv6Opt represents a DHCP option or parameter from RFC-3315

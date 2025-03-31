@@ -30,7 +30,7 @@ package layers
 import (
   "fmt"
 
-  "github.com/gopacket/gopacket"
+  "github.com/metageek-llc/gopacket"
 )
 
 `

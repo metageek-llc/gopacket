@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // Frame 6: 279 bytes on wire (2232 bits), 279 bytes captured (2232 bits)

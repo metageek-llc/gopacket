@@ -2,11 +2,12 @@ package pcapgo
 
 import (
 	"fmt"
-	"github.com/gopacket/gopacket"
 	"io"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/metageek-llc/gopacket"
 )
 
 type BufferPacketSource struct {

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // First packet is a REGISTER Request

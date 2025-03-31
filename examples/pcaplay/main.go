@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gopacket/gopacket"
-	"github.com/gopacket/gopacket/examples/util"
-	"github.com/gopacket/gopacket/pcap"
+	"github.com/metageek-llc/gopacket"
+	"github.com/metageek-llc/gopacket/examples/util"
+	"github.com/metageek-llc/gopacket/pcap"
 )
 
 var iface = flag.String("i", "eth0", "Interface to write packets to")

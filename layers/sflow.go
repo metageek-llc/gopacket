@@ -77,7 +77,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // SFlowRecord holds both flow sample records and counter sample records.

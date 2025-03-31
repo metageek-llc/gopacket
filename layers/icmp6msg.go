@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // Based on RFC 4861

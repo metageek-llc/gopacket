@@ -28,8 +28,8 @@ import (
 	"golang.org/x/net/bpf"
 	"golang.org/x/sys/unix"
 
-	"github.com/gopacket/gopacket"
-	"github.com/gopacket/gopacket/endian"
+	"github.com/metageek-llc/gopacket"
+	"github.com/metageek-llc/gopacket/endian"
 )
 
 var pageSize = unix.Getpagesize()

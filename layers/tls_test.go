@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // https://github.com/tintinweb/scapy-ssl_tls/blob/master/tests/files/RSA_WITH_AES_128_CBC_SHA.pcap

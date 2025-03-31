@@ -3,7 +3,7 @@ package layers
 import (
 	"testing"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 var testParseLinkTypeLinuxSLL2 = []byte{

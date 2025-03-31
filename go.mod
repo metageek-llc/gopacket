@@ -1,4 +1,4 @@
-module github.com/gopacket/gopacket
+module github.com/metageek-llc/gopacket
 
 go 1.23.0
 

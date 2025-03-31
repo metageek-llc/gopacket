@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/gopacket/gopacket"
+	"github.com/metageek-llc/gopacket"
 )
 
 // EthernetBroadcast is the broadcast MAC address used by Ethernet.
